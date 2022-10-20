@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://gomycodelearndev.blob.core.windows.net/profiles/80a61531-e31a-4e9c-a27c-26bf6f9781af-133042099757100333.jfif">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="list">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li style="float:right"><a href="#about" class="about">About</a></li>
+                </ul>
+            </section>
+
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h1>I will provide web developing services</h1>
+            <audio controls preload="auto">
+                <source src="./design/1664841443804cdelusk-voicemaker.in-speech.mp3" type="audio/mp3"
+                    alt="Hi, I'm Haroun Benmahdjoub, I am a web developer based in Algiers, Algeria.">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Hi, I'm <strong>Haroun Benmahdjoub</strong>, I am a web developer based in Algiers, Algeria.</p>
+        </section>
+        <section>
+            <!--This comment is only to add a comment and also to say that I'm putting pictures beside each other 
+                of what we have learned already, inspired by a cool & simple portfolio pic I found on Google I thought I could make 
+                without the need for CSS that I didn't unlock on the platform yet-->
+            <h2>Things I've learned with instructors Mr. A. Moussaoui and Mr. S. Khouider</h2>
+            <img src="./images/social-webfu-16x9.png" height="431" width="700" style="float:right"
+                alt="Web Fundamentals" />
+            <img src="./images/flyer.jpg" height="431" width="700" style="float:left" alt="Git & GitHub" />
+            <img src="./images/sta-je-html.jpg" height="400" width="700" alt="HTML" />
+            <img src="images\css.png" height="400" width="700" style="float:right" alt="CSS" />
+            <figcaption>
+                <ul>I have learned some
+                    <li class="html"><em>HTML,&nbsp</em></li>
+                    <li class="css"><em> CSS,&nbsp</em></li>
+                    <li class="javascript">and I'm eager to learn some more <em>JavaScript &nbsp</em></li>
+                </ul>
+            </figcaption>
+        </section>
+    </main>
+    <section>
+        <h3>For business inquiries please fill out this web form:</h3>
+        <form action="https://Haroun-receives-forms.com/submit-form">
+            <fieldset>
+                <legend>What type of website do you want to acquire?</legend>
+                <label>
+                    <input id="fully" type="radio" name="fully-CMS-IDK" value="fully" checked>a fully coded website
+                </label>
+                <label>
+                    <input id="CMS" type="radio" name="fully-CMS-IDK" value="CMS">a CMS website
+                </label>
+                <label>
+                    <input id="IDK" type="radio" name="fully-CMS-IDK" value="IDK">We do not know
+                </label>
+            </fieldset>
+
+            <label for="">Name</label>
+            <input type="Text" placeholder="Full name please"><br><br>
+
+            <label for="">Language</label>
+            <select name="Language" id="Language">
+                <option value="ALG">الدزيرية - Algerian dialect</option>
+                <option value="AR">عربية فصحى - Arabic (Modern Standard)</option>
+                <option value="NZ">English (New Zealand)</option>
+                <option value="UK">English (United Kingdom)</option>
+                <option value="US">English (United States)</option>
+                <option value="ES">Español (Spain)</option>
+                <option value="FR">Français (France)</option>
+                <option value="BR">Português - Portuguese (Brazil)</option>
+            </select><br><br>
+            <fieldset>
+                <legend>Subscribe to our newsletters to keep up on our latest updates and offers!</legend>
+                <label>
+                    <label>
+                        <input id="daily" type="checkbox" name="Daily-Weekly-Monthly-None" value="daily" checked>Our
+                        daily
+                        releases
+                    </label>
+                    <label>
+                        <input id="weekly" type="checkbox" name="Daily-Weekly-Monthly-None" value="weekly">Our weekly
+                        blog
+                    </label>
+                    <label>
+                        <input id="monthly" type="checkbox" name="Daily-Weekly-Monthly-None" value="monthly">Our monthly
+                        catalog
+                    </label>
+                </label>
+            </fieldset>
+            <label for="">We would like to be contacted by a moderator
+                <input type="checkbox" name="contactaModerator" id="contactaModerator"><br>
+            </label>
+
+            <label for="">Email</label>
+            <input type="text" name="email" placeholder="your email address" required>
+            <button type="submit">Submit</button><br><br>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <h3>Created by B.M. Haroun for <a
+                    href="https://learn.gomycode.co/checkpoints/2a75602a-90b9-4d46-bfc6-260639429a75">the GoMyCode
+                    Course</a></h3>
+        </div>
+    </footer>
+</body>
+
+</html>

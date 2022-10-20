@@ -1,0 +1,22 @@
+off https://learn.gomycode.co/checkpoints/26dd9b9b-2748-4488-a722-53dbd8f2eede#statements
+Note: I'm not sure if the above link is only accessible through my account (Benmahdjoub Haroun) but I guess we all have the same exams,
+Submission Deadline
+21 Oct 2022, 12:55 AM
+
+The objective of the checkpoint (CSS project):
+
+At this checkpoint, you’re instructed to:
+
+Objective
+Remember that portfolio we have created in the last checkpoint? Now is the time to give it some style. 
+
+Instructions
+Create a file `styles.css`.
+Link it to our HTML project.
+Change the display of the navbar to make it inline.
+Change the font to roboto.
+Add classes attributes to HTML / HTML documents .
+Be creative !
+Hint: You can use the Internet to search for portfolio models.
+
+
